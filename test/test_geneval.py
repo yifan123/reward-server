@@ -5,6 +5,7 @@ import pickle
 import glob
 import tqdm
 from concurrent.futures import ThreadPoolExecutor
+import os
 
 BATCH_SIZE = 24
 
